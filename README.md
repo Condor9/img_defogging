@@ -8,3 +8,6 @@
 ## 参考
 - 论文来源
   - http://www.jiansun.org/papers/Dehaze_CVPR2009.pdf
+
+- 算法内容来源
+  - https://zhuanlan.zhihu.com/p/457371436
