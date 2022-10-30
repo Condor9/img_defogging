@@ -18,3 +18,6 @@
 
 # img_wiener_filter
 使用python实现对图像的维纳滤波
+
+# img_DPCM
+使用python实现在不同量化因子（2bit、4bit、8bit）下对图像进行DPCM编码与解码
