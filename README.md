@@ -45,7 +45,7 @@ $$\tilde t(x) = 1 - \mathop {\min }\limits_{y \in \Omega (x)} \left[ {\mathop {\
 为了防止去雾太过彻底，恢复出的景物不自然，应引入参数
 $\omega = 0.95$
 ，重新定义传输函数为：
-$$\[\tilde t(x) = 1 - \mathop {\omega \min }\limits_{y \in \Omega (x)} \left[ {\mathop {\min }\limits_c \frac{{{I^c}(x)}}{{{A^c}}}} \right]\]$$
+$$\tilde t(x) = 1 - \mathop {\omega \min }\limits_{y \in \Omega (x)} \left[ {\mathop {\min }\limits_c \frac{{{I^c}(x)}}{{{A^c}}}} \right]$$
 
 上述推论假设大气A为已知量。实际中，可借助于暗通道图从有雾图中获取该值。具体步骤大致为：从暗通道图中按照亮度大小提取最亮的额前0.1%像素。然后在原始尤物图像I(x)中寻找对应位置最高两点的值，作为A值。至此，可以进行无雾图像恢复了。
 考虑到当透射图t的值很小时，会导致J的值偏大，使整张图向白场过度，故设置一个阈值
