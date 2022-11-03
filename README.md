@@ -76,3 +76,6 @@ $$J(x) = \frac{{I(x) - A}}{{\max [t(x),{t_0}]}} + A$$
 
 # img_DPCM
 使用python实现在不同量化因子（2bit、4bit、8bit）下对图像进行DPCM编码与解码
+
+# img_watershed
+使用python实现分水岭算法，并进行测试
