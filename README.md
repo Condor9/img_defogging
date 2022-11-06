@@ -80,5 +80,5 @@ $$J(x) = \frac{{I(x) - A}}{{\max [t(x),{t_0}]}} + A$$
 # img_watershed
 使用python实现分水岭算法，并进行测试
 
-# img_threshold segmentation
+# img_threshold_segmentation
 使用python实现大津法和迭代法对图像进行阈值分割，并进行比较
